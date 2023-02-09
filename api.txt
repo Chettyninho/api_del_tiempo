@@ -1,0 +1,5 @@
+madrid
+https://www.el-tiempo.net/api/json/v1/provincias/28/municipios/28079
+
+
+https://www.el-tiempo.net/api/json/v1/provincias/28/municipios/28079/weather (madrid pero con el tiempo)

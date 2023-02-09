@@ -1,0 +1,621 @@
+{
+    "@attributes": {
+      "id": "28079",
+      "version": "1.0"
+    },
+    "origen": {
+      "productor": "Agencia Estatal de Meteorología - AEMET. Gobierno de España",
+      "web": "https://www.aemet.es",
+      "enlace": "https://www.aemet.es/es/eltiempo/prediccion/municipios/madrid-id28079",
+      "language": "es",
+      "copyright": "© AEMET. Autorizado el uso de la información y su reproducción citando a AEMET como autora de la misma.",
+      "nota_legal": "https://www.aemet.es/es/nota_legal"
+    },
+    "elaborado": "2023-02-09T07:41:54",
+    "nombre": "Madrid",
+    "provincia": "Madrid",
+    "prediccion": {
+      "dia": [
+        {
+          "@attributes": {
+            "fecha": "2023-02-09"
+          },
+          "prob_precipitacion": [
+            "25",
+            "5",
+            "0",
+            "0",
+            "5",
+            "0",
+            "0"
+          ],
+          "cota_nieve_prov": [
+            "1100",
+            {
+              "@attributes": {
+                "periodo": "00-12"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "12-24"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "00-06"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "06-12"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "12-18"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "18-24"
+              }
+            }
+          ],
+          "estado_cielo": [
+            "14",
+            "15",
+            "12",
+            "16n",
+            "15",
+            "12",
+            "14n"
+          ],
+          "viento": [
+            {
+              "@attributes": {
+                "periodo": "00-24"
+              },
+              "direccion": "E",
+              "velocidad": "5"
+            },
+            {
+              "@attributes": {
+                "periodo": "00-12"
+              },
+              "direccion": "E",
+              "velocidad": "5"
+            },
+            {
+              "@attributes": {
+                "periodo": "12-24"
+              },
+              "direccion": "E",
+              "velocidad": "5"
+            },
+            {
+              "@attributes": {
+                "periodo": "00-06"
+              },
+              "direccion": "C",
+              "velocidad": "0"
+            },
+            {
+              "@attributes": {
+                "periodo": "06-12"
+              },
+              "direccion": "E",
+              "velocidad": "5"
+            },
+            {
+              "@attributes": {
+                "periodo": "12-18"
+              },
+              "direccion": "E",
+              "velocidad": "5"
+            },
+            {
+              "@attributes": {
+                "periodo": "18-24"
+              },
+              "direccion": "NE",
+              "velocidad": "10"
+            }
+          ],
+          "racha_max": [
+            {
+              "@attributes": {
+                "periodo": "00-24"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "00-12"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "12-24"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "00-06"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "06-12"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "12-18"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "18-24"
+              }
+            }
+          ],
+          "temperatura": {
+            "maxima": "10",
+            "minima": "4",
+            "dato": [
+              "6",
+              "7",
+              "8",
+              "4"
+            ]
+          },
+          "sens_termica": {
+            "maxima": "8",
+            "minima": "0",
+            "dato": [
+              "6",
+              "7",
+              "8",
+              "1"
+            ]
+          },
+          "humedad_relativa": {
+            "maxima": "90",
+            "minima": "55",
+            "dato": [
+              "90",
+              "65",
+              "60",
+              "70"
+            ]
+          },
+          "uv_max": "3"
+        },
+        {
+          "@attributes": {
+            "fecha": "2023-02-10"
+          },
+          "prob_precipitacion": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "cota_nieve_prov": [
+            {
+              "@attributes": {
+                "periodo": "00-24"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "00-12"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "12-24"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "00-06"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "06-12"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "12-18"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "18-24"
+              }
+            }
+          ],
+          "estado_cielo": [
+            "12",
+            "14",
+            "11",
+            "16n",
+            "14",
+            "11",
+            "11n"
+          ],
+          "viento": [
+            {
+              "@attributes": {
+                "periodo": "00-24"
+              },
+              "direccion": "E",
+              "velocidad": "10"
+            },
+            {
+              "@attributes": {
+                "periodo": "00-12"
+              },
+              "direccion": "NE",
+              "velocidad": "10"
+            },
+            {
+              "@attributes": {
+                "periodo": "12-24"
+              },
+              "direccion": "E",
+              "velocidad": "10"
+            },
+            {
+              "@attributes": {
+                "periodo": "00-06"
+              },
+              "direccion": "NE",
+              "velocidad": "10"
+            },
+            {
+              "@attributes": {
+                "periodo": "06-12"
+              },
+              "direccion": "E",
+              "velocidad": "10"
+            },
+            {
+              "@attributes": {
+                "periodo": "12-18"
+              },
+              "direccion": "E",
+              "velocidad": "10"
+            },
+            {
+              "@attributes": {
+                "periodo": "18-24"
+              },
+              "direccion": "NE",
+              "velocidad": "10"
+            }
+          ],
+          "racha_max": [
+            {
+              "@attributes": {
+                "periodo": "00-24"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "00-12"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "12-24"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "00-06"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "06-12"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "12-18"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "18-24"
+              }
+            }
+          ],
+          "temperatura": {
+            "maxima": "10",
+            "minima": "2",
+            "dato": [
+              "3",
+              "8",
+              "7",
+              "3"
+            ]
+          },
+          "sens_termica": {
+            "maxima": "8",
+            "minima": "-1",
+            "dato": [
+              "1",
+              "6",
+              "5",
+              "0"
+            ]
+          },
+          "humedad_relativa": {
+            "maxima": "85",
+            "minima": "35",
+            "dato": [
+              "80",
+              "45",
+              "45",
+              "70"
+            ]
+          },
+          "uv_max": "2"
+        },
+        {
+          "@attributes": {
+            "fecha": "2023-02-11"
+          },
+          "prob_precipitacion": [
+            "0",
+            "0",
+            "0"
+          ],
+          "cota_nieve_prov": [
+            {
+              "@attributes": {
+                "periodo": "00-24"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "00-12"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "12-24"
+              }
+            }
+          ],
+          "estado_cielo": [
+            "12",
+            "12",
+            "12"
+          ],
+          "viento": [
+            {
+              "@attributes": {
+                "periodo": "00-24"
+              },
+              "direccion": "E",
+              "velocidad": "10"
+            },
+            {
+              "@attributes": {
+                "periodo": "00-12"
+              },
+              "direccion": "NE",
+              "velocidad": "10"
+            },
+            {
+              "@attributes": {
+                "periodo": "12-24"
+              },
+              "direccion": "E",
+              "velocidad": "10"
+            }
+          ],
+          "racha_max": [
+            {
+              "@attributes": {
+                "periodo": "00-24"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "00-12"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "12-24"
+              }
+            }
+          ],
+          "temperatura": {
+            "maxima": "11",
+            "minima": "1"
+          },
+          "sens_termica": {
+            "maxima": "11",
+            "minima": "1"
+          },
+          "humedad_relativa": {
+            "maxima": "80",
+            "minima": "45"
+          },
+          "uv_max": "3"
+        },
+        {
+          "@attributes": {
+            "fecha": "2023-02-12"
+          },
+          "prob_precipitacion": [
+            "0",
+            "0",
+            "0"
+          ],
+          "cota_nieve_prov": [
+            {
+              "@attributes": {
+                "periodo": "00-24"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "00-12"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "12-24"
+              }
+            }
+          ],
+          "estado_cielo": [
+            "11",
+            "11",
+            "11"
+          ],
+          "viento": [
+            {
+              "@attributes": {
+                "periodo": "00-24"
+              },
+              "direccion": "E",
+              "velocidad": "10"
+            },
+            {
+              "@attributes": {
+                "periodo": "00-12"
+              },
+              "direccion": "E",
+              "velocidad": "10"
+            },
+            {
+              "@attributes": {
+                "periodo": "12-24"
+              },
+              "direccion": "E",
+              "velocidad": "10"
+            }
+          ],
+          "racha_max": [
+            {
+              "@attributes": {
+                "periodo": "00-24"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "00-12"
+              }
+            },
+            {
+              "@attributes": {
+                "periodo": "12-24"
+              }
+            }
+          ],
+          "temperatura": {
+            "maxima": "13",
+            "minima": "-1"
+          },
+          "sens_termica": {
+            "maxima": "13",
+            "minima": "-1"
+          },
+          "humedad_relativa": {
+            "maxima": "80",
+            "minima": "45"
+          },
+          "uv_max": "3"
+        },
+        {
+          "@attributes": {
+            "fecha": "2023-02-13"
+          },
+          "prob_precipitacion": "0",
+          "cota_nieve_prov": {},
+          "estado_cielo": "14",
+          "viento": {
+            "direccion": "SE",
+            "velocidad": "20"
+          },
+          "racha_max": {},
+          "temperatura": {
+            "maxima": "12",
+            "minima": "1"
+          },
+          "sens_termica": {
+            "maxima": "12",
+            "minima": "1"
+          },
+          "humedad_relativa": {
+            "maxima": "80",
+            "minima": "55"
+          },
+          "uv_max": "3"
+        },
+        {
+          "@attributes": {
+            "fecha": "2023-02-14"
+          },
+          "prob_precipitacion": "30",
+          "cota_nieve_prov": "1300",
+          "estado_cielo": "15",
+          "viento": {
+            "direccion": "SE",
+            "velocidad": "15"
+          },
+          "racha_max": {},
+          "temperatura": {
+            "maxima": "13",
+            "minima": "5"
+          },
+          "sens_termica": {
+            "maxima": "13",
+            "minima": "5"
+          },
+          "humedad_relativa": {
+            "maxima": "85",
+            "minima": "50"
+          }
+        },
+        {
+          "@attributes": {
+            "fecha": "2023-02-15"
+          },
+          "prob_precipitacion": "45",
+          "cota_nieve_prov": "1500",
+          "estado_cielo": "16",
+          "viento": {
+            "direccion": "SE",
+            "velocidad": "15"
+          },
+          "racha_max": {},
+          "temperatura": {
+            "maxima": "14",
+            "minima": "7"
+          },
+          "sens_termica": {
+            "maxima": "14",
+            "minima": "7"
+          },
+          "humedad_relativa": {
+            "maxima": "80",
+            "minima": "50"
+          }
+        }
+      ]
+    }
+  }
