@@ -1,0 +1,181 @@
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.weather-container{
+  width: 450px;
+  margin: 100px auto;
+  background-color: #333;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 22px;
+}
+
+.weather-container .current{
+
+  background: rgb(30, 107, 221);
+  background: linear-gradient(0deg, 
+    rgb(30, 107, 221)0%, 
+    rgb(30, 116, 255)42%, 
+    rgb(3, 191, 255)100%);
+  border-radius: 18px;
+  padding: 40px;
+}
+
+.weather-container .current .city{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.weather-container .current .city .day{
+  text-align: center;
+  border-style: groove 10px;
+  border-color: antiquewhite;
+
+}
+
+.weather-container .current .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-container .current .row img{
+  width: 128px;
+}
+
+.weather-container .current .row .temperature{
+  font-size: 48px;
+  font-weight: bolder;
+  display: flex;
+  align-items: right;
+}
+
+.weather-container .current .row .temperature .temperatre-now{
+  font-size: 65px;
+  margin: 0;
+}
+
+.weather-container .current .row .temperature .temperatre-low{
+  font-size: 32px;
+  color: rgba(255, 255, 255,0.7);
+}
+
+.weather-container .current .row .status{
+  text-align: center;
+  color: rgba(255, 255, 255,0.7);
+}
+
+.weather-container .current .more .item{
+
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.weather-container .current .item .type{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.weather-container .list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 40px;
+}
+.weather-container .list .day{
+  display: flex;
+  padding: 5%;
+  justify-content: space-between;
+  align-items: center;
+  border-color: antiquewhite;
+  border-style: solid;
+  border-radius: 4%;
+  transition: all .25s;
+
+}
+ .weather-container .list .day:hover{
+  background: rgb(28, 97, 199);
+  background: linear-gradient(0deg, 
+    rgb(3, 191, 255)6%, 
+    rgb(30, 116, 255)32%, 
+    rgb(28, 97, 199)70%);
+  font-style: italic;
+  color: #333;
+  transform: scale(1.1,1.18);
+
+} 
+.weather-container .list.day:not(:hover){
+  background-color:rgb(233, 26, 233);
+  background: linear-gradient(30deg, 
+    rgb(131, 36, 131)6%, 
+    rgb(199, 55, 199)32%, 
+    rgb(233, 26, 233)70%);
+  transform: scale(0.19,0.9);
+  }
+
+.weather-container .list .day .name{
+  width: 123px;
+  text-align: left;
+}
+
+
+.weather-container .list .day .weather{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 110px;
+  }
+
+.weather-container .list .day .status{
+color: rgba(255, 255, 255, 0.5);
+}
+
+.weather-container .list .day .temperature{
+  text-align: right;
+  display: flex;
+  column-gap: 5px;
+  padding-left: 25%;
+}
+
+.weather-container .list .day .temperature .temperature-high{
+ color: white;
+ 
+}
+
+.weather-container .list .day .temperature .temperature-low{
+ 
+  color: 333;
+}
